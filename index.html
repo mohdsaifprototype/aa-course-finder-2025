@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Course Finder</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+  <script type="module" defer src="script.js"></script>
+</head>
+
+<body>
+  <main class="main">
+
+    <h1>Course Finder</h1>
+    <div id="search-section" class="search-container">
+      <!-- Search by Duration -->
+      <div class="search-box">
+        <label for="duration">Search by Duration:</label>
+        <select id="duration">
+          <option value="">Select Duration</option>
+          <option value="Short">Short Term</option>
+          <option value="Mid">Mid Term</option>
+          <option value="Long">Long Term</option>
+        </select>
+      </div>
+
+      <!-- Search by Interest -->
+      <div class="search-box">
+        <label for="interest">Search by Interest:</label>
+        <select id="interest">
+          <option value="">Select Category</option>
+          <option value="All">All Courses</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Results Section -->
+    <div class="results container" id="result-text" style="display: none">
+      <h3>Results Found:</h3>
+      <div id="course-grid" class="course-grid"></div>
+    </div>
+
+    <!-- Course Details Section -->
+    <div id="course-detail-section" class="course-detail" style="display: none">
+      <div class="container">
+        <h3 id="course-detail-title"></h3>
+        <table>
+          <thead>
+            <tr>
+              <th colspan="4">Course Detail</th>
+            </tr>
+            <tr>
+              <th>Course Code</th>
+              <th>Course Name</th>
+              <th>Duration</th> <!-- Course Duration in Months -->
+              <th>Terms</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="course-detail-table1"></tr>
+          </tbody>
+        </table>
+
+        <!-- Accordion for term details -->
+        <div id="course-detail-accordion" class="accordion" style="display: none">
+          <div id="course-detail-accordion-content"></div>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th colspan="4">Payment Details</th>
+            </tr>
+            <tr>
+              <th>Total Fees</th> <!-- total fees (including gst) in rupees -->
+              <th>Registration Fees</th> <!-- Registration fee = ₹5,900.00 -->
+              <th>Down Payment</th> <!-- Downpayment (₹30,000.00) -->
+              <th>lump Sum</th> <!-- Lump Sum Amount in rupees -->
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="course-detail-table2"></tr>
+          </tbody>
+        </table>
+
+        <table>
+          <thead>
+            <tr>
+              <th colspan="4">
+                Installment Methods
+              </th>
+            </tr>
+            <tr>
+              <th>Yearly (NO DP)</th>
+              <!--
+              Yearly Amount without Down payment will be calculated like if the no. of month is 26 then it can divide the amt by 3 and if the no. of month is 18 then then divide the amt by 2
+              e.g.,
+              1. 
+              total fees (including gst = ₹356,596.00)
+              no. of month = 26 then,
+              Output: ₹118,865 x 3
+              
+              2.
+              total fees (including gst = ₹295,000.00)
+              no. of month = 20 then,
+              Output: ₹147,500 x 2
+              -->
+              <th colspan="3">Quarterly</th>
+            </tr>
+            <tr>
+              <th>Installment Amount</th>
+              <th>Installments Amount</th> <!-- Total submission / (Math.floor(Month/3) (integer value) -->
+              <th>No. of Installments</th>
+              <th>Total Submission</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="course-detail-table3"></tr>
+          </tbody>
+        </table>
+
+        <table>
+          <thead>
+            <tr>
+              <th colspan="4">Monthy EMI Plan</th>
+            </tr>
+            <!-- totalSubmissionForEmi = total fees (including gst) in rupees - Downpayment -->
+            <tr>
+              <th>Installments Plan-1</th> <!-- totalSubmissionForEmi / (courseDurationInMonth - 1) -->
+              <th>Installments Plan-2</th> <!-- totalSubmissionForEmi / (courseDurationInMonth - 2) -->
+              <th>Installments Plan-3</th> <!-- totalSubmissionForEmi / (courseDurationInMonth - 3) -->
+              <th>Installments Plan-4</th> <!-- totalSubmissionForEmi / (courseDurationInMonth - 4) -->
+            </tr>
+          </thead>
+          <tbody>
+            <tr id="course-detail-table4"></tr>
+          </tbody>
+        </table>
+
+        <a href="#" class="back-button" onclick="goBack()">
+          <i class="fas fa-arrow-left"></i> Back
+        </a>
+      </div>
+    </div>
+  </main>
+</body>
+<script>
+  document.getElementById("duration").addEventListener("change", () => {
+    showCategoriesByDuration();
+  });
+</script>
+
+</html>
