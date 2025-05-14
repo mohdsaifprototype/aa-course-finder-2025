@@ -5,86 +5,29 @@ export const courseCategories = {
 		"VFX",
 		"Game Design",
 		"Game Development",
-		"Interior/Exterior",
+		"Interior/ Exterior",
 	],
 	Mid: [
-		"Graphic Design",
+		"Graphics Design",
+		"3D Animation",
+		"VFX",
+		"Graphic Web Design and Development",
+		"Motion Graphics Design",
+		"UI/UX",
+		"Video / Audio",
+	],
+	Short: [
+		"Graphics Design",
 		"2D Animation",
 		"3D Animation",
 		"VFX",
 		"Graphic Web Design and Development",
-		"Motion Graphic Design",
-		"UI/UX",
-		"Video/Audio",
-	],
-	Short: [
-		"Graphic Design",
-		"3D Animation",
-		"VFX",
-		"Graphic Web Design and Development",
-		"Motion Graphic Design",
-		"UI/UX",
+		"Motion Graphics Design",
 		"Game Design",
-		"Game Development",
-		"Interior/Exterior",
-		"Video/Audio",
+		"Video / Audio",
+		"AI",
 	],
 };
-
-/* 
-Course catergories:
-Short: {
-	Graphics Design: ["3172-DCC-NGGD", "666-MPH", "667-MIL", "671-MID", "675-MP"],
-	2D Animation: ["662-M2DA"],
-	3D Animation: ["663-MZB", "664-MBL", "669-MC4D", "672-MSP", "674-M3DM", "677-MM", "OV-587-BE"],
-	VFX: ["661-MH", "678-MNS"],
-	Graphic Web Design and Development: ["3172-DCC-NGWDD"],
-	Motion Graphics Design: ["669-MC4D", "670-MAE", "OV-587-BE"],
-	UI/UX: [],
-	Game Design: ["668-MUC", "676-MUE"],
-	Game Development: [],
-	Interior/ Exterior: [],
-	Video / Audio: ["673-MAVE", "OV-587-BE"],
-	AI: ["660-MGAI"],
-}
-
-/* Course mapping to categories:
-Mid: {
-	Graphics Design: [
-		"3168-AAIPP-DV",
-		"3173-DCC-NGVDMA",
-	],
-	2D Animation: [],
-	3D Animation: [
-		"3171-AAIPP-A3DV",
-		"3179-AVGC-ADGAB",
-		"3178-AVGC-ADGAM",
-	],
-	VFX: [
-		"3180-AVGC-APVFXCE",
-	],
-	Graphic Web Design and Development: [
-		"3172-DCC-NGGDWD",
-		"3174-DCC-DCC",
-	],
-	Motion Graphics Design: [
-		"3174-DCC-DCC",
-		"3173-DCC-NGVDMA",
-	],
-	UI/UX: [
-		"Advanced Program in UI UX Design",
-	],
-	Game Design: [],
-	Game Development: [],
-	Interior/ Exterior: [],
-	Video / Audio: [
-		"3168-AAIPP-DV",
-		"3180-AVGC-APVFXCE",
-	],
-}
-
-
-*/
 
 // Course class definition
 class Course {
@@ -159,7 +102,7 @@ export const courses = [
 		"AAIPP-Advanced 3D Design",
 		"Long",
 		22,
-		["VFX"],
+		["3D Animation"],
 		248508,
 		224436,
 		[[], [], [], [], [], []]
@@ -171,7 +114,7 @@ export const courses = [
 		"AAIPP-Advanced Program in Animation with Unreal Engine",
 		"Long",
 		27,
-		["courseCategory"],
+		["3D Animation", "Game Design"],
 		312936,
 		273170,
 		[
@@ -214,7 +157,7 @@ export const courses = [
 		"AAIPP-Design and Visualization",
 		"Mid",
 		11,
-		["courseCategory"],
+		["Graphics Design", "Video / Audio"],
 		107616,
 		103250,
 		[[], [], [], [], [], []]
@@ -225,7 +168,7 @@ export const courses = [
 		"AAIPP-Advanced 3D Visualization",
 		"Mid",
 		18,
-		["courseCategory"],
+		["3D Animation"],
 		208388,
 		191278,
 		[[], [], [], [], [], []]
@@ -236,7 +179,7 @@ export const courses = [
 		"AAIPP-Advanced Program in Architectural Visualization and Interior Design",
 		"Long",
 		27,
-		["courseCategory"],
+		["Interior/ Exterior"],
 		315532,
 		275294,
 		[
@@ -276,7 +219,7 @@ export const courses = [
 		"AAIPP-Broadcast Design",
 		"Long",
 		19,
-		["courseCategory"],
+		["3D Animation"],
 		222430,
 		203078,
 		[
@@ -311,7 +254,7 @@ export const courses = [
 		"AAIPP-Advanced 3D Design for VFX",
 		"Long",
 		20,
-		["courseCategory"],
+		["VFX"],
 		230808,
 		209686,
 		[[], [], [], [], [], []]
@@ -322,7 +265,7 @@ export const courses = [
 		"AAIPP-Advanced Program in Visual Effects",
 		"Long",
 		29,
-		["courseCategory"],
+		["VFX"],
 		329338,
 		285796,
 		[
@@ -366,7 +309,7 @@ export const courses = [
 		"Advanced Digital Graphics and Animation with Blender",
 		"Mid",
 		13,
-		["courseCategory"],
+		["3D Animation"],
 		149860,
 		141836,
 		[
@@ -384,7 +327,7 @@ export const courses = [
 		"Advanced Digital Graphics and Animation with Maya",
 		"Mid",
 		14,
-		["courseCategory"],
+		["3D Animation"],
 		158120,
 		148326,
 		[
@@ -402,7 +345,7 @@ export const courses = [
 		"Advanced Program in Animation and VFX",
 		"Long",
 		23,
-		["courseCategory"],
+		["3D Animation", "VFX"],
 		262432,
 		234230,
 		[
@@ -434,7 +377,7 @@ export const courses = [
 		"Advanced Program in VFX Compositing and Editing",
 		"Mid",
 		11,
-		["courseCategory"],
+		["VFX", "Video / Audio"],
 		119180,
 		113870,
 		[
@@ -463,7 +406,7 @@ export const courses = [
 		"Advanced Program in VFX Film Making",
 		"Long",
 		20,
-		["courseCategory"],
+		["VFX"],
 		210040,
 		190806,
 		[
@@ -494,7 +437,7 @@ export const courses = [
 		"Trinity 3D, Master in Realtime 3D, VFX and Game Development",
 		"Long",
 		41,
-		["courseCategory"],
+		["3D Animation", "VFX", "Game Design", "Game Development"],
 		433060,
 		351050,
 		[
@@ -543,7 +486,7 @@ export const courses = [
 		"DCC-Digital Content Creation",
 		"Mid",
 		17,
-		["courseCategory"],
+		["Graphic Web Design and Development", "Motion Graphics Design"],
 		191278,
 		176764,
 		[
@@ -592,7 +535,7 @@ export const courses = [
 		"DCC-Next-Gen Graphic and Visual Design",
 		"Short",
 		8,
-		["courseCategory"],
+		["Graphics Design"],
 		51448,
 		50150,
 		[
@@ -617,7 +560,7 @@ export const courses = [
 		"DCC-Next-Gen Graphic Design and Web Development",
 		"Mid",
 		15,
-		["courseCategory"],
+		["Graphic Web Design and Development"],
 		103840,
 		97940,
 		[
@@ -661,7 +604,7 @@ export const courses = [
 		"DCC-Next-Gen Web Design and Development",
 		"Short",
 		7,
-		["courseCategory"],
+		["Graphic Web Design and Development"],
 		54280,
 		52628,
 		[
@@ -697,7 +640,7 @@ export const courses = [
 		"DCC-Next-Gen Visual Design and Motion Graphics",
 		"Mid",
 		11,
-		["courseCategory"],
+		["Graphics Design", "Motion Graphics Design"],
 		100182,
 		95462,
 		[
@@ -728,7 +671,7 @@ export const courses = [
 		"GID-Advanced Program in Game Art and Design",
 		"Long",
 		21,
-		["courseCategory"],
+		["Game Design"],
 		222430,
 		199656,
 		[[], [], [], [], [], []]
@@ -739,7 +682,7 @@ export const courses = [
 		"GID-Advanced Program in Game Art, Design and Development",
 		"Long",
 		28,
-		["courseCategory"],
+		["Game Design", "Game Development"],
 		296770,
 		255588,
 		[[], [], [], [], [], []]
@@ -750,7 +693,7 @@ export const courses = [
 		"GID-Advanced Program in Game Art and Design with Specialization",
 		"Long",
 		27,
-		["courseCategory"],
+		["Game Design"],
 		281784,
 		246266,
 		[[], [], [], [], [], []]
@@ -761,7 +704,7 @@ export const courses = [
 		"GID-Advanced Program in Immersive Design",
 		"Long",
 		26,
-		["courseCategory"],
+		["Game Design"],
 		269512,
 		236826,
 		[[], [], [], [], [], []]
@@ -772,7 +715,7 @@ export const courses = [
 		"GID-Master in Game Art, Design and Dev with ARVRXR",
 		"Long",
 		39,
-		["courseCategory"],
+		["Game Design", "Game Development"],
 		404504,
 		331462,
 		[
@@ -815,9 +758,9 @@ export const courses = [
 		"undefined!",
 		"undefined!",
 		"Advanced Program in UI UX Design",
-		"duration",
+		"Mid",
 		undefined,
-		["courseCategory"],
+		["UI/UX"],
 		undefined,
 		undefined,
 		[
@@ -853,7 +796,7 @@ export const courses = [
 		"Master in Gen AI",
 		"Short",
 		2,
-		["courseCategory"],
+		["AI"],
 		16992,
 		16992,
 		[
@@ -880,7 +823,7 @@ export const courses = [
 		"Master in Houdini",
 		"Short",
 		2,
-		["courseCategory"],
+		["VFX"],
 		21358,
 		21358,
 		[["Houdini"], [], [], [], [], []]
@@ -891,7 +834,7 @@ export const courses = [
 		"Master in 2D Animation",
 		"Short",
 		9,
-		["courseCategory"],
+		["2D Animation"],
 		89208,
 		85786,
 		[["2d Animate"], [], [], [], [], []]
@@ -902,7 +845,7 @@ export const courses = [
 		"Master in Zbrush",
 		"Short",
 		2,
-		["courseCategory"],
+		["3D Animation"],
 		17818,
 		17818,
 		[["Z brush"], [], [], [], [], []]
@@ -913,7 +856,7 @@ export const courses = [
 		"Master in Blender",
 		"Short",
 		7,
-		["courseCategory"],
+		["3D Animation"],
 		70210,
 		68322,
 		[["Blender"], [], [], [], [], []]
@@ -924,7 +867,7 @@ export const courses = [
 		"Master in Photoshop",
 		"Short",
 		2,
-		["courseCategory"],
+		["Graphics Design"],
 		21358,
 		21358,
 		[["Photoshop"], [], [], [], [], []]
@@ -935,7 +878,7 @@ export const courses = [
 		"Master in Illustrator",
 		"Short",
 		2,
-		["courseCategory"],
+		["Graphics Design"],
 		10856,
 		10856,
 		[["Illustrator"], [], [], [], [], []]
@@ -946,7 +889,7 @@ export const courses = [
 		"Master in Unreal Cinematics",
 		"Short",
 		3,
-		["courseCategory"],
+		["Game Design"],
 		32096,
 		31742,
 		[["Unreal Engine"], [], [], [], [], []]
@@ -957,7 +900,7 @@ export const courses = [
 		"Master in Cinema 4D",
 		"Short",
 		3,
-		["courseCategory"],
+		["3D Animation", "Motion Graphics Design"],
 		32096,
 		31742,
 		[["Cinema 4D"], [], [], [], [], []]
@@ -968,7 +911,7 @@ export const courses = [
 		"Master in After Effects",
 		"Short",
 		2,
-		["courseCategory"],
+		["Motion Graphics Design"],
 		17110,
 		17110,
 		[["After Effects"], [], [], [], [], []]
@@ -979,7 +922,7 @@ export const courses = [
 		"Master in InDesign",
 		"Short",
 		2,
-		["courseCategory"],
+		["Graphics Design"],
 		11682,
 		11682,
 		[["InDesign"], [], [], [], [], []]
@@ -990,7 +933,7 @@ export const courses = [
 		"Master in Substance Painter",
 		"Short",
 		2,
-		["courseCategory"],
+		["3D Animation"],
 		15458,
 		15458,
 		[["Substance Painter"], [], [], [], [], []]
@@ -1001,7 +944,7 @@ export const courses = [
 		"Master in Audio Video Editing",
 		"Short",
 		3,
-		["courseCategory"],
+		["Video / Audio"],
 		25606,
 		25606,
 		[["Audio Video Editing"], [], [], [], [], []]
@@ -1012,7 +955,7 @@ export const courses = [
 		"Master in 3ds Max",
 		"Short",
 		5,
-		["courseCategory"],
+		["3D Animation"],
 		51330,
 		50504,
 		[["3Ds Max"], [], [], [], [], []]
@@ -1023,7 +966,7 @@ export const courses = [
 		"Master in Photography",
 		"Short",
 		2,
-		["courseCategory"],
+		["Graphics Design"],
 		17110,
 		17110,
 		[["Photography"], [], [], [], [], []]
@@ -1034,7 +977,7 @@ export const courses = [
 		"Master in Unreal Engine",
 		"Short",
 		7,
-		["courseCategory"],
+		["Game Design"],
 		76700,
 		75048,
 		[["Unreal Engine"], [], [], [], [], []]
@@ -1045,7 +988,7 @@ export const courses = [
 		"Master in Maya",
 		"Short",
 		9,
-		["courseCategory"],
+		["3D Animation"],
 		66906,
 		64310,
 		[["Maya"], [], [], [], [], []]
@@ -1056,7 +999,7 @@ export const courses = [
 		"Master in Nuke and Silhouette",
 		"Short",
 		4,
-		["courseCategory"],
+		["VFX"],
 		45548,
 		44958,
 		[["Nuke and Silhouette"], [], [], [], [], []]
@@ -1068,7 +1011,7 @@ export const courses = [
 		"Broadcast Editing",
 		"Short",
 		5,
-		["courseCategory"],
+		["3D Animation", "Motion Graphics Design", "Video / Audio"],
 		49442,
 		48734,
 		[[], [], [], [], [], []]

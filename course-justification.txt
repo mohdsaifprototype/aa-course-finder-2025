@@ -1,0 +1,30 @@
+Course catergories:
+Short: {
+	Graphics Design: ["3172-DCC-NGGD", "666-MPH", "667-MIL", "671-MID", "675-MP"],
+	2D Animation: ["662-M2DA"],
+	3D Animation: ["663-MZB", "664-MBL", "669-MC4D", "672-MSP", "674-M3DM", "677-MM", "OV-587-BE"],
+	VFX: ["661-MH", "678-MNS"],
+	Graphic Web Design and Development: ["3172-DCC-NGWDD"],
+	Motion Graphics Design: ["669-MC4D", "670-MAE", "OV-587-BE"],
+	Game Design: ["668-MUC", "676-MUE"],
+	Video / Audio: ["673-MAVE", "OV-587-BE"],
+	AI: ["660-MGAI"],
+}
+
+Mid: {
+	Graphics Design: ["3168-AAIPP-DV", "3173-DCC-NGVDMA"],
+	3D Animation: ["3171-AAIPP-A3DV", "3179-AVGC-ADGAB", "3178-AVGC-ADGAM"],
+	VFX: ["3180-AVGC-APVFXCE"],
+	Graphic Web Design and Development: ["3172-DCC-NGGDWD", "3174-DCC-DCC"],
+	Motion Graphics Design: ["3174-DCC-DCC", "3173-DCC-NGVDMA"],
+	UI/UX: ["Advanced Program in UI UX Design"],
+	Video / Audio: ["3168-AAIPP-DV", "3180-AVGC-APVFXCE"],
+}
+
+Long: {
+	3D Animation: ["3168-AAIPP-A3DD", "3168-AAIPP-APAUE", "3177-AVGC-APAVFX", "3176-AVGC-TRINITY", "3170-AAIPP-BD"],
+	VFX: ["3169-AAIPP-A3DD", "3169-AAIPP-AdvVE", "3177-AVGC-APAVFX", "3181-AVGC-APVFXFM", "3176-AVGC-TRINITY"],
+	Game Design: ["3168-AAIPP-APAUE", "3176-AVGC-TRINITY", "3175-GID-APGAD", "3175-GID-APGADS", "3175-GID-APID", "3171-AAIPP-APAVID"],
+	Game Development: ["3176-AVGC-TRINITY", "3175-GID-MGADDARVR", "3175-GID-MGADDARVR"],
+	Interior/ Exterior: ["3171-AAIPP-APAVID"],
+}
