@@ -759,10 +759,10 @@ export const courses = [
 		"undefined!",
 		"Advanced Program in UI UX Design",
 		"Mid",
-		undefined,
+		7,
 		["UI/UX"],
-		undefined,
-		undefined,
+		72200,
+		72200,
 		[
 			[
 				"Adobe Photoshop CC",

@@ -70,7 +70,7 @@ function selectCategory() {
 
 const footer = document.createElement("footer");
 footer.innerHTML = `
-  <div>Made By Shahwaj under the guidance Mohd Saif <a href="https://portfolio.pmsprototype.com/mohd-saif/" target="_blank">(@mohdsaifprototype)</a></div>
+  <div>Made By Mohd Saif <a href="https://portfolio.pmsprototype.com/mohd-saif/" target="_blank">(@mohdsaifprototype)</a></div>
 `;
 footer.style.cssText = `
   position: sticky;
@@ -240,7 +240,7 @@ function showCourseDetail(courseName) {
       document.getElementById(
         "course-detail-table4"
       ).innerHTML += `<td>${formatAmount(
-        selectedCourse.monthlyInstallments_3
+        selectedCourse.monthlyInstallments_4
       )} &times; ${selectedCourse.months - 4}</td>`;
     }
   }
