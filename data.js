@@ -171,7 +171,29 @@ export const courses = [
 		["3D Animation"],
 		208388,
 		191278,
-		[[], [], [], [], [], []]
+		[
+			[
+				"Adobe Illustrator CC",
+				"Storyboarder",
+				"Adobe Premiere Pro",
+				"Adobe Audition CC",
+				"Adobe Animate CC",
+				"Adobe After Effects CC",
+				"Gen Ai Tools",
+			],
+			[
+				"AutoCAD",
+				"3ds Max",
+				"V-Ray",
+				"Adobe Substance Painter",
+				"SketchUp",
+				"Gen Ai Tools",
+			],
+			[],
+			[],
+			[],
+			[],
+		]
 	),
 	new Course(
 		"3171-AAIPP-APAVID",
@@ -515,7 +537,6 @@ export const courses = [
 				"Maze/UserTesting",
 				"Visify",
 				"Uizard",
-				"Figma",
 				"Firefly",
 				"VS Code",
 				"WordPress",
@@ -574,7 +595,6 @@ export const courses = [
 				"Term-end Portfolio",
 			],
 			[
-				"Figma",
 				"Visify",
 				"Uizard",
 				"Figma",
@@ -609,7 +629,6 @@ export const courses = [
 		52628,
 		[
 			[
-				"Figma",
 				"Visify",
 				"Uizard",
 				"Figma",
@@ -755,14 +774,14 @@ export const courses = [
 		]
 	),
 	new Course(
-		"undefined!",
-		"undefined!",
+		"OV-3095-APUIUX",
+		"OV-3095-APUIUX",
 		"Advanced Program in UI UX Design",
 		"Mid",
 		7,
 		["UI/UX"],
-		72200,
-		72200,
+		85196,
+		83308,
 		[
 			[
 				"Adobe Photoshop CC",
@@ -774,7 +793,6 @@ export const courses = [
 				"Maze/User Testing",
 				"Visify",
 				"Uizard",
-				"Figma",
 				"Firefly",
 				"VS Code",
 				"WordPress",
@@ -1015,5 +1033,36 @@ export const courses = [
 		49442,
 		48734,
 		[[], [], [], [], [], []]
+	),
+	new Course(
+		"OV-3108 Bvoc FM",
+		"B. Voc (VFA)",
+		"B. Voc (VFA)",
+		"Long",
+		36,
+		["VFX", "3D Animation"],
+		455000,
+		undefined,
+		[
+			["Adobe Illustrator CC", "Adobe Photoshop CC", "Adobe Express", "Canva"],
+			[
+				"Adobe Audition CC",
+				"Adobe Premiere Pro CC",
+				"Adobe After Effects",
+				"Adobe Animate CC",
+			],
+			["Autodesk 3ds Max with Vray"],
+			["Autodesk Maya", "Zbrush", "Substance Painter"],
+			["Autodesk Maya (Rigging and Animation)", "x-Gen", "Cloth"],
+			[
+				"Foundry Nuke,Unreal Engine",
+				"Metahuman",
+				"Silhouette",
+				"Mocha",
+				"DaVinci Resolve",
+				"Portfolio",
+			],
+		],
+		true
 	),
 ];
