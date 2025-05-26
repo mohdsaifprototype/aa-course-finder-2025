@@ -70,6 +70,7 @@ function selectCategory() {
 
 const footer = document.createElement("footer");
 footer.innerHTML = `
+  <div>Note: This is not for enquiry showcasing/display, take it for office use only.</div>
   <div>Made By Mohd Saif <a href="https://portfolio.pmsprototype.com/mohd-saif/" target="_blank">(@mohdsaifprototype)</a></div>
 `;
 footer.style.cssText = `
