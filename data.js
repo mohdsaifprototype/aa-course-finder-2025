@@ -160,7 +160,24 @@ export const courses = [
 		["Graphics Design", "Video / Audio"],
 		107616,
 		103250,
-		[[], [], [], [], [], []]
+		[
+			[
+				"Adobe Illustrator CC",
+				"Adobe Photoshop CC",
+				"Storyboarder",
+				"Adobe Premier Pro CC",
+				"Adobe Audition CC",
+				"Adobe Animate CC",
+				"Adobe After Effects CC",
+				"Gen Ai tools for Text/Image/Video",
+				"Term-end Portfolio",
+			],
+			[],
+			[],
+			[],
+			[],
+			[],
+		]
 	),
 	new Course(
 		"3171-AAIPP-A3DV",
@@ -279,7 +296,31 @@ export const courses = [
 		["VFX"],
 		230808,
 		209686,
-		[[], [], [], [], [], []]
+		[
+			[
+				"Adobe Illustrator CC",
+				"Adobe Photoshop CC",
+				"Storyboarder",
+				"Adobe Premier Pro CC",
+				"Adobe Audition CC",
+				"Adobe Animate CC",
+				"Adobe After Effects CC",
+				"Gen Ai tools for Text/Image/Video",
+				"Term-end Portfolio",
+			],
+			[
+				"Autodesk Maya",
+				"Adobe Substance Painter",
+				"Reality Capture",
+				"Arnold",
+				"Gen Ai tools for 3D Assets Creation & Animation",
+				"Term-end Portfolio",
+			],
+			[],
+			[],
+			[],
+			[],
+		]
 	),
 	new Course(
 		"3169-AAIPP-AdvVE",
@@ -458,7 +499,7 @@ export const courses = [
 		"AVGC - TRINITY - 3176",
 		"Trinity 3D, Master in Realtime 3D, VFX and Game Development",
 		"Long",
-		41,
+		36,
 		["3D Animation", "VFX", "Game Design", "Game Development"],
 		433060,
 		351050,
