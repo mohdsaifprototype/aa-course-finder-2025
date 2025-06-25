@@ -26,6 +26,7 @@ export const courseCategories = {
 		"Game Design",
 		"Video / Audio",
 		"AI",
+		"Interior/ Exterior",
 	],
 };
 
@@ -734,7 +735,27 @@ export const courses = [
 		["Game Design"],
 		222430,
 		199656,
-		[[], [], [], [], [], []]
+		[
+			[
+				"Adobe Illustrator CC",
+				"Adobe Photoshop CC",
+				"Figma",
+				"Adobe Animate CC",
+				"Gen AI tools for Text/Image/Video",
+				"GDevelop.io",
+			],
+			[
+				"Autodesk Maya",
+				"Maxon Zbrush",
+				"Adobe Substance Painter",
+				"Unreal Engine (Designing)",
+				"Gen AI tools for 3D Assets Creation & Animation",
+			],
+			[],
+			[],
+			[],
+			[],
+		]
 	),
 	new Course(
 		"3175-GID-APGADD",
@@ -745,7 +766,25 @@ export const courses = [
 		["Game Design", "Game Development"],
 		296770,
 		255588,
-		[[], [], [], [], [], []]
+		[
+			[
+				"Adobe Illustrator CC",
+				"Adobe Photoshop CC",
+				"Figma",
+				"Adobe Animate CC",
+				"Gen AI tools for Text/Image/Video",
+				"GDevelop.io",
+			],
+			["Autodesk Maya", "Maxon Zbrush", "Adobe Substance Painter"],
+			[
+				"Unreal Engine",
+				"Gen AI tools for 3D Assets Creation & Animation",
+				"Term-end Portfolio",
+			],
+			[],
+			[],
+			[],
+		]
 	),
 	new Course(
 		"3175-GID-APGADS",
@@ -756,7 +795,27 @@ export const courses = [
 		["Game Design"],
 		281784,
 		246266,
-		[[], [], [], [], [], []]
+		[
+			[
+				"Adobe Illustrator CC",
+				"Adobe Photoshop CC",
+				"Figma",
+				"Adobe Animate CC",
+				"Gen AI tools for Text/Image/Video",
+				"GDevelop.io",
+			],
+			[
+				"Autodesk Maya",
+				"Maxon Zbrush",
+				"Adobe Substance Painter",
+				"Unreal Engine (Designing)",
+				"Gen AI tools for 3D Assets Creation & Animation",
+			],
+			["Specialization in Game Art"],
+			[],
+			[],
+			[],
+		]
 	),
 	new Course(
 		"3175-GID-APID",
@@ -767,7 +826,26 @@ export const courses = [
 		["Game Design"],
 		269512,
 		236826,
-		[[], [], [], [], [], []]
+		[
+			[
+				"Adobe Illustrator CC",
+				"Adobe Photoshop CC",
+				"Figma",
+				"Adobe Animate CC",
+				"Gen AI tools for Text/Image/Video",
+				"GDevelop.io",
+			],
+			["Autodesk Maya", "Maxon Zbrush", "Adobe Substance Painter"],
+			[
+				"Unity",
+				"Unreal Engine",
+				"Gen AI tools for 3D Assets Creation & Animation",
+				"Term-end Portfolio",
+			],
+			[],
+			[],
+			[],
+		]
 	),
 	new Course(
 		"3175-GID-MGADDARVR",
@@ -840,7 +918,7 @@ export const courses = [
 				"XAMPP",
 				"Project",
 				"Behance",
-				"Dribble",
+				"Dribbble",
 			],
 			[],
 			[],
@@ -1094,7 +1172,7 @@ export const courses = [
 			],
 			["Autodesk 3ds Max with Vray"],
 			["Autodesk Maya", "Zbrush", "Substance Painter"],
-			["Autodesk Maya (Rigging and Animation)", "x-Gen", "Cloth"],
+			["Autodesk Maya (Rigging and Animation)", "X-Gen", "Cloth"],
 			[
 				"Foundry Nuke,Unreal Engine",
 				"Metahuman",
@@ -1105,5 +1183,23 @@ export const courses = [
 			],
 		],
 		true
+	),
+	new Course(
+		"665-DAID",
+		"STCs",
+		"Digital Architecture and Interior Design",
+		"Short",
+		8,
+		["Interior/ Exterior"],
+		75048,
+		72452,
+		[
+			["Adobe Photoshop CC", "3ds Max", "Vray", "Twinmotion"],
+			[],
+			[],
+			[],
+			[],
+			[],
+		]
 	),
 ];
