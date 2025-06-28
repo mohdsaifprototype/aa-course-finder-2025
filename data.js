@@ -1084,7 +1084,7 @@ export const courses = [
 		["Video / Audio"],
 		25606,
 		25606,
-		[["Audio Video Editing"], [], [], [], [], []]
+		[["Adobe Premier Pro"], ["Adobe Audition"], [], [], [], []]
 	),
 	new Course(
 		"674-M3DM",
