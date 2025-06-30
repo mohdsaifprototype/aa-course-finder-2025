@@ -106,7 +106,32 @@ export const courses = [
 		["3D Animation"],
 		248508,
 		224436,
-		[[], [], [], [], [], []]
+		[
+			[
+				"Adobe Illustrator CC",
+				"Adobe Photoshop CC",
+				"Storyboarder",
+				"Adobe Premier Pro CC",
+				"Adobe Audition CC",
+				"Adobe Animate CC",
+				"Adobe After Effects CC",
+				"Gen Ai tools for Text/Image/Video",
+				"Term-end Portfolio",
+			],
+			[
+				"Autodesk Maya",
+				"Maxon Zbrush",
+				"Adobe Substance Painter",
+				"Reality Capture",
+				"Arnold",
+				"Gen Ai tools for 3D Assets Creation & Animation",
+				"Term-end Portfolio",
+			],
+			[],
+			[],
+			[],
+			[],
+		]
 	),
 
 	new Course(
@@ -974,7 +999,20 @@ export const courses = [
 		["2D Animation"],
 		89208,
 		85786,
-		[["2d Animate"], [], [], [], [], []]
+		[
+			[
+				"Storyboarder",
+				"Adobe Photoshop CC",
+				"Adobe Animate CC",
+				"Adobe Premiere Pro CC",
+				"Adobe Audition CC",
+			],
+			[],
+			[],
+			[],
+			[],
+			[],
+		]
 	),
 	new Course(
 		"663-MZB",
