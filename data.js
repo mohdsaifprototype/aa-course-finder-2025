@@ -42,6 +42,7 @@ class Course {
 		totalFees,
 		lumpSum,
 		terms,
+		brouchureLink = "",
 		degree = false
 	) {
 		this.courseCode = courseCode;
@@ -56,6 +57,7 @@ class Course {
 		this.lumpSum = lumpSum;
 		this.terms = terms;
 		this.degree = degree;
+		this.brouchureLink = brouchureLink;
 	}
 
 	get totalSubmission() {
@@ -104,8 +106,8 @@ export const courses = [
 		"Long",
 		22,
 		["3D Animation"],
-		248508,
-		224436,
+		253508,
+		229436,
 		[
 			[
 				"Adobe Illustrator CC",
@@ -131,7 +133,8 @@ export const courses = [
 			[],
 			[],
 			[],
-		]
+		],
+		`https://drive.google.com/file/d/1Cc0kLLDKXwaNtS9tKuPM9GGDGJbkTJdl/view?usp=sharing`
 	),
 
 	new Course(
@@ -141,8 +144,8 @@ export const courses = [
 		"Long",
 		27,
 		["3D Animation", "Game Design"],
-		312936,
-		273170,
+		317936,
+		278170,
 		[
 			[
 				"Adobe Illustrator CC",
@@ -175,7 +178,8 @@ export const courses = [
 			[],
 			[],
 			[],
-		]
+		],
+		`https://drive.google.com/file/d/1m8LgHwjB53BW8YkHWf6k6Mr5U97mTe4N/view?usp=sharing`
 	),
 	new Course(
 		"3168-AAIPP-DV",
@@ -184,8 +188,8 @@ export const courses = [
 		"Mid",
 		11,
 		["Graphics Design", "Video / Audio"],
-		107616,
-		103250,
+		110616,
+		106250,
 		[
 			[
 				"Adobe Illustrator CC",
@@ -203,7 +207,7 @@ export const courses = [
 			[],
 			[],
 			[],
-		]
+		],
 	),
 	new Course(
 		"3171-AAIPP-A3DV",
@@ -212,8 +216,8 @@ export const courses = [
 		"Mid",
 		18,
 		["3D Animation"],
-		208388,
-		191278,
+		213388,
+		196278,
 		[
 			[
 				"Adobe Illustrator CC",
@@ -236,7 +240,8 @@ export const courses = [
 			[],
 			[],
 			[],
-		]
+		],
+		`https://drive.google.com/file/d/1vFsE4Tu_01_5baZLA9yMJ3l4Rn0MoVnN/view?usp=sharing`
 	),
 	new Course(
 		"3171-AAIPP-APAVID",
@@ -245,8 +250,8 @@ export const courses = [
 		"Long",
 		27,
 		["Interior/ Exterior"],
-		315532,
-		275294,
+		320532,
+		280294,
 		[
 			[
 				"Adobe Illustrator CC",
@@ -276,7 +281,8 @@ export const courses = [
 			[],
 			[],
 			[],
-		]
+		],
+		`https://drive.google.com/file/d/1pZIcvJOCV3iWD-ebK1aceMS_rnaKmiBz/view?usp=sharing`
 	),
 	new Course(
 		"3170-AAIPP-BD",
@@ -285,8 +291,8 @@ export const courses = [
 		"Long",
 		19,
 		["3D Animation"],
-		222430,
-		203078,
+		227430,
+		208078,
 		[
 			[
 				"Adobe Illustrator CC",
@@ -311,7 +317,8 @@ export const courses = [
 			[],
 			[],
 			[],
-		]
+		],
+		`https://drive.google.com/file/d/1V-RGujeZDapZMo4FPN39y40K8IrCLQdD/view?usp=sharing`
 	),
 	new Course(
 		"3169-AAIPP-A3DD",
@@ -320,8 +327,8 @@ export const courses = [
 		"Long",
 		20,
 		["VFX"],
-		230808,
-		209686,
+		235808,
+		214686,
 		[
 			[
 				"Adobe Illustrator CC",
@@ -346,7 +353,8 @@ export const courses = [
 			[],
 			[],
 			[],
-		]
+		],
+		`https://drive.google.com/file/d/19KG_T2crxvFh138y4qQo2adK4Ehnn9Mn/view?usp=sharing`
 	),
 	new Course(
 		"3169-AAIPP-AdvVE",
@@ -355,8 +363,8 @@ export const courses = [
 		"Long",
 		29,
 		["VFX"],
-		329338,
-		285796,
+		334338,
+		290796,
 		[
 			[
 				"Adobe Illustrator CC",
@@ -390,7 +398,8 @@ export const courses = [
 			[],
 			[],
 			[],
-		]
+		],
+		`https://drive.google.com/file/d/1XqcI6WJ-TWQPMWSu4u_RxzHBPPZAfnZy/view?usp=sharing`
 	),
 	new Course(
 		"3179-AVGC-ADGAB",
@@ -399,8 +408,8 @@ export const courses = [
 		"Mid",
 		13,
 		["3D Animation"],
-		149860,
-		141836,
+		152860,
+		144836,
 		[
 			["Adobe Photoshop CC", "Adobe Audition CC", "Adobe After Effects CC"],
 			["Blender", "Term-end Portfolio", "LinkedIn", "Upwork"],
@@ -408,7 +417,8 @@ export const courses = [
 			[],
 			[],
 			[],
-		]
+		],
+		`https://drive.google.com/file/d/1L923wNfTzDdmtAjIibb4NOMdMYljKhn2/view?usp=sharing`
 	),
 	new Course(
 		"3178-AVGC-ADGAM",
@@ -417,8 +427,8 @@ export const courses = [
 		"Mid",
 		14,
 		["3D Animation"],
-		158120,
-		148326,
+		161120,
+		151326,
 		[
 			["Adobe Photoshop CC", "Adobe Audition CC", "Adobe After Effects CC"],
 			["Autodesk Maya", "Arnold", "Term-end Portfolio", "LinkedIn", "Upwork"],
@@ -426,7 +436,8 @@ export const courses = [
 			[],
 			[],
 			[],
-		]
+		],
+		`https://drive.google.com/file/d/1_tqE1HoO4zr_gG-HugECmryBToPgRV6R/view?usp=sharing`
 	),
 	new Course(
 		"3177-AVGC-APAVFX",
@@ -435,8 +446,8 @@ export const courses = [
 		"Long",
 		23,
 		["3D Animation", "VFX"],
-		262432,
-		234230,
+		267432,
+		239230,
 		[
 			[
 				"Adobe Photoshop CC",
@@ -467,8 +478,8 @@ export const courses = [
 		"Mid",
 		11,
 		["VFX", "Video / Audio"],
-		119180,
-		113870,
+		122180,
+		116870,
 		[
 			[
 				"Adobe Photoshop CC",
@@ -487,7 +498,8 @@ export const courses = [
 			[],
 			[],
 			[],
-		]
+		],
+		`https://drive.google.com/file/d/1qYoEoqt38vVMwadHyR5Ya7rHmtgegFJ0/view?usp=sharing`
 	),
 	new Course(
 		"3181-AVGC-APVFXFM",
@@ -496,8 +508,8 @@ export const courses = [
 		"Long",
 		20,
 		["VFX"],
-		210040,
-		190806,
+		215040,
+		195806,
 		[
 			[
 				"Adobe Photoshop CC",
@@ -527,8 +539,8 @@ export const courses = [
 		"Long",
 		36,
 		["3D Animation", "VFX", "Game Design", "Game Development"],
-		433060,
-		351050,
+		438060,
+		356050,
 		[
 			[
 				"Conceptual",
@@ -567,7 +579,8 @@ export const courses = [
 				"Nuke",
 			],
 			["Unreal Engine 5.0"],
-		]
+		],
+		`https://drive.google.com/file/d/1Snj7RCrYl34Og-v6mct8CKkhWPr_tquT/view?usp=sharing`
 	),
 	new Course(
 		"3174-DCC-DCC",
@@ -576,8 +589,8 @@ export const courses = [
 		"Mid",
 		17,
 		["Graphic Web Design and Development", "Motion Graphics Design"],
-		191278,
-		176764,
+		196278,
+		181764,
 		[
 			[
 				"Adobe Photoshop CC",
@@ -615,7 +628,8 @@ export const courses = [
 			[],
 			[],
 			[],
-		]
+		],
+		`https://drive.google.com/file/d/1JUEF1aqtpb7PaIGAhKcJRFCtyuLTu7BN/view?usp=sharing`
 	),
 	new Course(
 		"3172-DCC-NGGD",
@@ -624,8 +638,8 @@ export const courses = [
 		"Short",
 		8,
 		["Graphics Design"],
-		51448,
-		50150,
+		54148,
+		52850,
 		[
 			[
 				"Adobe Photoshop CC",
@@ -640,7 +654,8 @@ export const courses = [
 			[],
 			[],
 			[],
-		]
+		],
+		`https://drive.google.com/file/d/12UeZ5Sf1LCR81GhM-7p6gLXBQQu5YF33/view?usp=sharing`
 	),
 	new Course(
 		"3172-DCC-NGGDWD",
@@ -649,8 +664,8 @@ export const courses = [
 		"Mid",
 		15,
 		["Graphic Web Design and Development"],
-		103840,
-		97940,
+		106540,
+		100640,
 		[
 			[
 				"Adobe Photoshop CC",
@@ -683,7 +698,8 @@ export const courses = [
 			[],
 			[],
 			[],
-		]
+		],
+		`https://drive.google.com/file/d/1KpxowVT8b1OYuzISk10KssuKxpcy25U2/view?usp=sharing`
 	),
 	new Course(
 		"3172-DCC-NGWDD",
@@ -692,8 +708,8 @@ export const courses = [
 		"Short",
 		7,
 		["Graphic Web Design and Development"],
-		54280,
-		52628,
+		56980,
+		55328,
 		[
 			[
 				"Visify",
@@ -718,7 +734,8 @@ export const courses = [
 			[],
 			[],
 			[],
-		]
+		],
+		`https://drive.google.com/file/d/1XN1CGT-tzFKPf7MJ-uh50A4VqFXoJ-fU/view?usp=sharing`
 	),
 	new Course(
 		"3173-DCC-NGVDMA",
@@ -727,8 +744,8 @@ export const courses = [
 		"Mid",
 		11,
 		["Graphics Design", "Motion Graphics Design"],
-		100182,
-		95462,
+		102882,
+		98162,
 		[
 			[
 				"Adobe Illustrator CC",
@@ -749,7 +766,8 @@ export const courses = [
 			[],
 			[],
 			[],
-		]
+		],
+		`https://drive.google.com/file/d/1rTaJPnEhMccYm3VvaxGsBdOHtMa89ykC/view?usp=sharing`
 	),
 	new Course(
 		"3175-GID-APGAD",
@@ -758,8 +776,8 @@ export const courses = [
 		"Long",
 		21,
 		["Game Design"],
-		222430,
-		199656,
+		227430,
+		204656,
 		[
 			[
 				"Adobe Illustrator CC",
@@ -789,8 +807,8 @@ export const courses = [
 		"Long",
 		28,
 		["Game Design", "Game Development"],
-		296770,
-		255588,
+		301770,
+		260588,
 		[
 			[
 				"Adobe Illustrator CC",
@@ -818,8 +836,8 @@ export const courses = [
 		"Long",
 		27,
 		["Game Design"],
-		281784,
-		246266,
+		286784,
+		251266,
 		[
 			[
 				"Adobe Illustrator CC",
@@ -849,8 +867,8 @@ export const courses = [
 		"Long",
 		26,
 		["Game Design"],
-		269512,
-		236826,
+		274512,
+		241826,
 		[
 			[
 				"Adobe Illustrator CC",
@@ -879,8 +897,8 @@ export const courses = [
 		"Long",
 		39,
 		["Game Design", "Game Development"],
-		404504,
-		331462,
+		409504,
+		336462,
 		[
 			[
 				"Adobe Illustrator CC",
@@ -915,7 +933,8 @@ export const courses = [
 				"Upwork",
 			],
 			[],
-		]
+		],
+		`https://drive.google.com/file/d/1swP898ag1tkty3iG9KEwPHf0sJOSpjfo/view?usp=sharing`
 	),
 	new Course(
 		"OV-3095-APUIUX",
@@ -950,7 +969,8 @@ export const courses = [
 			[],
 			[],
 			[],
-		]
+		],
+		`https://drive.google.com/file/d/1m8oC5HVdaIcKn2iUuYNA5X-vB6I1OsjB/view?usp=sharing`
 	),
 	new Course(
 		"660-MGAI",
@@ -977,7 +997,8 @@ export const courses = [
 			[],
 			[],
 			[],
-		]
+		],
+		`https://drive.google.com/file/d/1old1RbsUlvxUIdXl6yUb0aUhLTjNdlKj/view?usp=sharing`
 	),
 	new Course(
 		"661-MH",
@@ -1220,6 +1241,7 @@ export const courses = [
 				"Portfolio",
 			],
 		],
+		`https://drive.google.com/file/d/1ragQ6MHDmbVkWA29T6rKhbgLPUlbYDuO/view?usp=sharing`,
 		true
 	),
 	new Course(
